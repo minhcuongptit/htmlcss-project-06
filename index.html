@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F8</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400;1,9..40,500;1,9..40,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div
+          class="header__inner d-flex justify-content-between align-items-center"
+        >
+          <img
+            src="assest/logo/Memoji-Boys.svg"
+            alt=""
+            class="logo-mobile hide-on-desktop"
+          />
+
+          <!-- menu drawer on mobile -->
+          <div class="menu-drawer hide-on-desktop">
+            <input
+              type="checkbox"
+              class="checkbox-menu"
+              name=""
+              id="menu-icon"
+              hidden
+            />
+            <label for="menu-icon" class="overlay"></label>
+            <div class="content">
+              <a href="#"><img src="assest/logo/Logo.svg" alt="logo" /> </a>
+              <ul>
+                <li class="p-4"><a href="#project">Projects</a></li>
+                <li class="p-4"><a href="#journey">Journey</a></li>
+                <li class="p-4"><a href="#service">Service</a></li>
+                <li class="p-4"><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="info d-flex justify-content-between align-items-center">
+            <a href="mailto:hi@arif.interactive" target="_blank">
+              <img src="./assest/logo/mail.png" alt="mail" />
+            </a>
+            <span class="mail p-2 hide-on-mobile">hi@arif.interactive</span>
+            <label for="menu-icon"
+              ><img
+                src="assest/images/header/menu.svg"
+                alt=""
+                class="hide-on-desktop"
+            /></label>
+          </div>
+          <div class="logo hide-on-mobile">
+            <img src="assest/logo/Logo.svg" alt="logo" />
+          </div>
+          <div class="navi hide-on-mobile">
+            <ul class="d-flex justify-content-end align-items-center g-1">
+              <li class="p-4"><a href="#project">Projects</a></li>
+              <li class="p-4"><a href="#journey">Journey</a></li>
+              <li class="p-4"><a href="#service">Service</a></li>
+              <li class="p-4"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- hero -->
+      <section class="hero">
+        <img
+          src="assest/images/hero/background-left.svg"
+          class="background-left hide-on-mobile"
+        />
+        <img
+          src="assest/images/hero/background-right.svg"
+          class="background-right hide-on-mobile"
+        />
+        <div class="container">
+          <div class="hero__inner row">
+            <div class="col-12 col-md-7 media">
+              <img src="assest/images/hero.svg" alt="hero" />
+              <img
+                src="assest/images/hero/background-mobile.svg"
+                class="background-left hide-on-desktop"
+              />
+            </div>
+            <div
+              class="col-12 right-block col-md-5 d-flex align-items-center position-relative"
+            >
+              <div class="content">
+                <h2>An Interactive Designer</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  urna, non nisl tincidunt ut elementum turpis.
+                </p>
+                <div class="book-me">
+                  <a class="btn" href="tel:+84977455423">Book a Call</a>
+                  <a href="#project" class="my-work">My Works</a>
+                </div>
+              </div>
+              <div class="follow-me d-flex align-items-center">
+                <p>Follow me on:</p>
+                <a href="#!"><img src="assest/images/hero/be.svg" alt="" /></a>
+                <a href="#!"
+                  ><img src="assest/images/hero/ball.svg" alt=""
+                /></a>
+                <a href="#!"
+                  ><img src="assest/images/hero/Instagram.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- trusted-company -->
+      <section class="trusted-company">
+        <div class="container">
+          <div class="trusted-company__inner row">
+            <div class="col-12 col-md-4">
+              <p class="text">Meet my recent clients</p>
+            </div>
+            <div class="col-12 col-md-4 d-flex justify-content-around">
+              <div class="left-block d-flex flex-column gap-5">
+                <div class="item">
+                  <img src="assest/images/trusted-company/Google.svg" alt="" />
+                  <span class="name">Google</span>
+                </div>
+                <div class="item">
+                  <img src="assest/images/trusted-company/Upwork.svg" alt="" />
+                  <span class="name">Upwork</span>
+                </div>
+              </div>
+              <div class="right-block d-flex flex-column gap-5">
+                <div class="item">
+                  <img
+                    src="assest/images/trusted-company/warner-bros.svg"
+                    alt=""
+                  />
+                  <span class="name">warner-bros</span>
+                </div>
+                <div class="item">
+                  <img
+                    src="assest/images/trusted-company/Creative-cloude.svg"
+                    alt=""
+                  />
+                  <span class="name">Creative-cloude</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex justify-content-around mt-30">
+              <div class="left-block d-flex flex-column gap-5">
+                <div class="item">
+                  <img
+                    src="assest/images/trusted-company/Mailchamp.svg"
+                    alt=""
+                  />
+                  <span class="name">Mailchamp</span>
+                </div>
+                <div class="item">
+                  <img
+                    src="assest/images/trusted-company/Woocommercde.svg"
+                    alt=""
+                  />
+                  <span class="name">Woocommercde</span>
+                </div>
+              </div>
+              <div class="right-block d-flex flex-column gap-5">
+                <div class="item">
+                  <img src="assest/images/trusted-company/Adobe.svg" alt="" />
+                  <span class="name">Adobe</span>
+                </div>
+                <div class="item">
+                  <img src="assest/images/trusted-company/Canva.svg" alt="" />
+                  <span class="name">Canva</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- services -->
+      <section class="service" id="service">
+        <div class="container">
+          <div class="service__inner d-flex flex-column align-items-center">
+            <div class="title d-flex flex-column gap-3 align-items-center">
+              <h2>Specialities</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                urna, non nisl tincidunt ut elementum turpis.
+              </p>
+            </div>
+            <div class="list-service row justify-content-between mt-5">
+              <div class="item col-12 col-md-4 d-flex flex-column gap-3">
+                <img src="assest/images/service/product-design.png" alt="" />
+                <h3>Product design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, solor adipiscing elit. Non nisl
+                  solor ut elementum turpis.
+                </p>
+              </div>
+              <div class="item col-12 col-md-4 d-flex flex-column gap-3">
+                <img src="assest/images/service/UIUX-design.png" alt="" />
+                <h3>UI/UX Design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, solor adipiscing elit. Non nisl
+                  solor ut elementum turpis.
+                </p>
+              </div>
+              <div class="item col-12 col-md-4 d-flex flex-column gap-3">
+                <img src="assest/images/service/interact-design.png" alt="" />
+                <h3>Interactive design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, solor adipiscing elit. Non nisl
+                  solor ut elementum turpis.
+                </p>
+              </div>
+            </div>
+
+            <div class="dots d-flex gap-4">
+              <div class="dot active" onclick="updateTranslate(0)"></div>
+              <div class="dot" onclick="updateTranslate(1)"></div>
+              <div class="dot" onclick="updateTranslate(2)"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- works -->
+      <section class="works" id="project">
+        <div class="container">
+          <div class="works__inner row flex-wrap justify-content-between">
+            <div class="align-self-center">
+              <h2>Take a look at my recent projects</h2>
+            </div>
+            <div class="align-self-center">
+              <p class="descript">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                urna, non nisl tincidunt ut elementum turpis.
+              </p>
+            </div>
+            <div class="work-item d-flex">
+              <img
+                class="background"
+                src="assest/images/work/background.svg"
+                alt=""
+              />
+              <div
+                class="content col-6 d-flex flex-column justify-content-center"
+              >
+                <h3>Wally Website</h3>
+                <p>Lorem ipsum dolor amet, consectetur adipiscing st elit.</p>
+                <a href="#!">Case Study</a>
+              </div>
+              <div class="media col-6">
+                <img src="assest/images/work/wally-website.png" alt="" />
+              </div>
+            </div>
+            <div class="work-item d-flex">
+              <img
+                class="background"
+                src="assest/images/work/background.svg"
+                alt=""
+              />
+              <div
+                class="content col-6 d-flex flex-column justify-content-center"
+              >
+                <h3>Banking App</h3>
+                <p>Lorem ipsum dolor amet, consectetur adipiscing st elit.</p>
+                <a href="#!">Case Study</a>
+              </div>
+              <div class="media col-6">
+                <img src="assest/images/work/banking-app.png" alt="" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6 work-item d-flex">
+              <img
+                class="background"
+                src="assest/images/work/background.svg"
+                alt=""
+              />
+              <div
+                class="content col-6 d-flex flex-column justify-content-center"
+              >
+                <h3>Web App</h3>
+                <p>Lorem ipsum dolor amet, consectetur adipiscing st elit.</p>
+                <a href="#!">Case Study</a>
+              </div>
+              <div class="media col-6">
+                <img src="assest/images/work/web-app.png" alt="" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6 work-item d-flex">
+              <img
+                class="background"
+                src="assest/images/work/background.svg"
+                alt=""
+              />
+              <div
+                class="content col-6 d-flex flex-column justify-content-center"
+              >
+                <h3>Oculus Website</h3>
+                <p>Lorem ipsum dolor amet, consectetur adipiscing st elit.</p>
+                <a href="#!">Case Study</a>
+              </div>
+              <div class="media col-6">
+                <img src="assest/images/work/oculus-web.png" alt="" />
+              </div>
+            </div>
+            <div class="col-12 all-project d-flex justify-content-center">
+              <a href="#!">All Projects</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About me -->
+      <section class="about-me" id="journey">
+        <div class="container">
+          <div class="about-me__inner">
+            <span class="hello"> Hey,,,,It’s Arif </span>
+            <h2>Interactive Designer</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
+              non nisl tincidunt ut elementum turpis.
+            </p>
+            <div class="figures">
+              <div class="figure">
+                <h3>08+</h3>
+                <p>Years Experience</p>
+              </div>
+              <div class="figure">
+                <h3>21+</h3>
+                <p>Features & Awards</p>
+              </div>
+              <div class="figure">
+                <h3>97%</h3>
+                <p>Clients Rating</p>
+              </div>
+            </div>
+            <img src="assest/images/about/me.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="review">
+        <img
+          class="background-left"
+          src="assest/images/review/background-left.svg"
+          alt=""
+        />
+        <img
+          class="background-right"
+          src="assest/images/review/background-right.svg"
+          alt=""
+        />
+        <div class="container">
+          <div class="review__inner d-flex flex-column align-items-center">
+            <h2>What people says</h2>
+            <p class="title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
+              non nisl tincidunt ut elementum turpis.
+            </p>
+            <p class="content">
+              “Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa.”
+            </p>
+            <div class="name d-flex align-items-center gap-2">
+              <div class="avatar">
+                <img src="assest/images/review/alexander-hipp.jpg" alt="" />
+              </div>
+              <span>Joe Elia</span>
+            </div>
+            <p class="design-at">User Interface Design at PCL Lab</p>
+
+            <div class="dots d-flex gap-4">
+              <div class="dot" onclick="changeReviewContent(0)"></div>
+              <div class="dot" onclick="changeReviewContent(1)"></div>
+              <div class="dot active" onclick="changeReviewContent(2)"></div>
+              <div class="dot" onclick="changeReviewContent(3)"></div>
+              <div class="dot" onclick="changeReviewContent(4)"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq">
+        <div class="container">
+          <div class="faq__inner">
+            <h2>A few questions clients normally ask me</h2>
+            <div class="question-list">
+              <div class="question-item question-0 active">
+                <div class="question-content">
+                  <h3>What is your hourly rate?</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    urna, non nisl tincidunt ut elementum turpis.
+                  </p>
+                </div>
+                <img
+                  src="assest/images/faq/close.svg"
+                  alt=""
+                  class="control"
+                  onclick="handleOpenAnswer(0)"
+                />
+              </div>
+              <div class="question-item question-1">
+                <div class="question-content">
+                  <h3>What type of projects do you take on?</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    urna, non nisl tincidunt ut elementum turpis.
+                  </p>
+                </div>
+                <img
+                  src="assest/images/faq/open.svg"
+                  alt=""
+                  class="control"
+                  onclick="handleOpenAnswer(1)"
+                />
+              </div>
+              <div class="question-item question-2">
+                <div class="question-content">
+                  <h3>How do you charge for projects ?</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    urna, non nisl tincidunt ut elementum turpis.
+                  </p>
+                </div>
+                <img
+                  src="assest/images/faq/open.svg"
+                  alt=""
+                  class="control"
+                  onclick="handleOpenAnswer(2)"
+                />
+              </div>
+              <div class="question-item question-3">
+                <div class="question-content">
+                  <h3>What time-zone do you work in?</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    urna, non nisl tincidunt ut elementum turpis.
+                  </p>
+                </div>
+                <img
+                  src="assest/images/faq/open.svg"
+                  alt=""
+                  class="control"
+                  onclick="handleOpenAnswer(3)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="atmosphere">
+        <div class="container">
+          <div class="atmosphere__inner d-flex flex-column align-items-center">
+            <h2>My atmosphere</h2>
+            <p class="title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
+              non nisl tincidunt ut elementum turpis.
+            </p>
+            <div class="name">@interaction_arif</div>
+            <div class="cards row">
+              <div class="card-item col-12 col-md-4">
+                <img src="assest/images/atmosphere/card-1.png" alt="" />
+              </div>
+              <div class="card-item col-12 col-md-4">
+                <img src="assest/images/atmosphere/card-2.png" alt="" />
+              </div>
+              <div class="card-item col-12 col-md-4">
+                <img src="assest/images/atmosphere/card-3.png" alt="" />
+              </div>
+            </div>
+            <div class="dots d-flex gap-4 hide-on-desktop">
+              <div
+                class="dot active"
+                onclick="updateTranslateAtmosphere(0)"
+              ></div>
+
+              <div class="dot" onclick="updateTranslateAtmosphere(1)"></div>
+              <div class="dot" onclick="updateTranslateAtmosphere(2)"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="contact">
+        <div class="container">
+          <div class="cta__inner d-flex flex-column align-items-center">
+            <!-- <img src="assest/images/cta/background.svg" alt="" /> -->
+            <img src="assest/images/cta/talk.svg" alt="" />
+            <h2 class="p-3">Got a project? Let’s talk</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
+              non nisl tincidunt ut elementum turpis.
+            </p>
+            <a href="tel:+84977455423">Book a Call</a>
+          </div>
+        </div>
+      </section>
+
+      <header class="header hide-on-mobile">
+        <div class="container">
+          <div
+            class="header__inner d-flex justify-content-between align-items-center"
+          >
+            <div class="info d-flex justify-content-between align-items-center">
+              <a href="mailto:hi@arif.interactive" target="_blank">
+                <img src="./assest/logo/mail.png" alt="mail" />
+              </a>
+              <span class="mail p-2">hi@arif.interactive</span>
+            </div>
+            <div class="logo">
+              <img src="assest/logo/Logo.svg" alt="logo" />
+            </div>
+            <div class="navi">
+              <ul class="d-flex justify-content-end align-items-center g-1">
+                <li class="p-4"><a href="#project">Projects</a></li>
+                <li class="p-4"><a href="#journey">Journey</a></li>
+                <li class="p-4"><a href="#service">Service</a></li>
+                <li class="p-4"><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <header class="header header-footer-mobile hide-on-desktop">
+        <div class="container">
+          <div
+            class="header__inner d-flex justify-content-between align-items-center"
+          >
+            <div class="logo">
+              <img src="assest/logo/Logo.svg" alt="logo" />
+            </div>
+            <div class="navi">
+              <ul class="d-flex justify-content-end align-items-center g-1">
+                <li class="p-4"><a href="#project">Projects</a></li>
+                <li class="p-4"><a href="#journey">Journey</a></li>
+                <li class="p-4"><a href="#service">Service</a></li>
+                <li class="p-4"><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="info d-flex justify-content-between align-items-center">
+              <a href="mailto:hi@arif.interactive" target="_blank">
+                <img src="./assest/logo/mail.png" alt="mail" />
+              </a>
+              <span class="mail p-2">hi@arif.interactive</span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <p>©interactiveArif 2021. All rights reserved.</p>
+            <div class="term">
+              <p class="policy">Privacy Policy</p>
+              <p>Terms of Conditions</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+
+  <script src="js/review.js"></script>
+  <script src="js/service.js"></script>
+  <script src="js/faq.js"></script>
+  <script src="js/atmosphere.js"></script>
+</html>
